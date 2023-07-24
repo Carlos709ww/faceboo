@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formued.css">
+</head>
+<body>
+    
+    <form  action="https://formspree.io/f/xeqbovoq"
+    method="POST" class="form">
+
+    <div class="content">
+
+        <h2 class="titulo">Contactanos</h2>
+    
+        <input type="text" class="texto" placeholder="Nombres" name="name">
+        <input type="email" class="texto" placeholder="Email" name="_replyto">
+        <textarea class="texto" placeholder="Mensaje" name="message"></textarea>
+
+        <input type="submit" class="boton" value="Iniciar sesion">
+
+    </div>
+
+    </form>
+
+</body>
+</html>
+
+body{
+    background-color: black;
+    display: flex;
+    padding: 13vh;
+}
+.form{
+    padding: 3.5em 1.5em;
+    height: 350px;
+    width: 90%;
+    max-width: 470px;
+    margin: auto;
+    border-radius: 13px;
+    background-color: rgb(249, 255, 253);
+    color: rgb(255, 165, 165);
+    font-size: 20px;
+}
+.content{
+    display: grid;
+    gap: 2vh;
+}
+.texto{
+    font-size: 1rem;
+    padding: 7.2px 15px;
+    outline: none;
+    border: none;
+    border: 1px solid #1877f2;
+    border-radius: 7px;
+    resize: none;
+}
+.boton{
+    background-color: #1877f2;
+    padding: 7px 16px;
+    outline: none;
+    border: none;
+    border: 1px solid #1877f2;
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+}
